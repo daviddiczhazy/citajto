@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "title": "Nevzdám to!",
+    "image": "1.jpg",
+    "genre": "biografický",
+    "rating": "8.3",
+    "author": "Jozef Banáš"
+  },
+  {
+    "id": 2,
+    "title": "Tichá rebelka Timrava",
+    "image": "2.jpg",
+    "genre": "biografický",
+    "rating": "7.7",
+    "author": "Jozef Banáš"
+  },
+  {
+    "id": 3,
+    "title": "Prebijem sa!",
+    "image": "3.jpg",
+    "genre": "biografický",
+    "rating": "6.3",
+    "author": "Jozef Banáš"
+  },
+  {
+    "id": 4,
+    "title": "Som Baťa, dokážem to!",
+    "image": "4.jpg",
+    "genre": "biografický",
+    "rating": "9.3",
+    "author": "Jozef Banáš"
+  },
+  {
+    "id": 5,
+    "title": "Alexander Veľký",
+    "image": "5.jpg",
+    "genre": "biografický",
+    "rating": "4.9",
+    "author": "Michal Habaj"
+  },
+  {
+    "id": 6,
+    "title": "Storočie dynastických vojen",
+    "image": "6.jpg",
+    "genre": "historický",
+    "rating": "8.4",
+    "author": "Vladimír Segeš"
+  },
+  {
+    "id": 7,
+    "title": "Napoleon",
+    "image": "7.jpg",
+    "genre": "biografický",
+    "rating": "9.8",
+    "author": "Mike Lepine"
+  },
+  {
+    "id": 8,
+    "title": "Šesť látok",
+    "image": "8.jpg",
+    "genre": "zdravie",
+    "rating": "7.2",
+    "author": "David Philips"
+  },
+  {
+    "id": 9,
+    "title": "Glukózová revolúcia",
+    "image": "9.jpg",
+    "genre": "zdravie",
+    "rating": "1.7",
+    "author": "DJessie Inchaupsé"
+  },
+  {
+    "id": 10,
+    "title": "Dejiny Peloponézske války",
+    "image": "10.jpg",
+    "genre": "historický",
+    "rating": "7.5",
+    "author": "Thúkydidés"
+  },
+  {
+    "id": 11,
+    "title": "Ako vedieť všetko",
+    "image": "11.jpg",
+    "genre": "motivačné",
+    "rating": "8.5",
+    "author": "Elke Wiss"
+  },
+  {
+    "id": 12,
+    "title": "Umění debatovat",
+    "image": "12.jpg",
+    "genre": "motivačné",
+    "rating": "7.5",
+    "author": "Timofej Kožuchov"
+  },
+  {
+    "id": 13,
+    "title": "Zdravé srdce a cévy",
+    "image": "13.jpg",
+    "genre": "zdravie",
+    "rating": "8.4",
+    "author": "Katarína Horáková"
+  },
+  {
+    "id": 14,
+    "title": "Nechajte to tak",
+    "image": "14.jpg",
+    "genre": "motivačné",
+    "rating": "6.5",
+    "author": "Mel Robinsová"
+  },
+  {
+    "id": 15,
+    "title": "Myseľ včely",
+    "image": "15.jpg",
+    "genre": "zdravie",
+    "rating": "9.8",
+    "author": "Lars Chittka"
+  },
+  {
+    "id": 16,
+    "title": "Vaše odvážne nové ja",
+    "image": "16.jpg",
+    "genre": "motivačné",
+    "rating": "9.1",
+    "author": "Cory Allen"
+  },
+  {
+    "id": 17,
+    "title": "5 Úrovni líderstva",
+    "image": "17.jpg",
+    "genre": "motivačné",
+    "rating": "4.0",
+    "author": "John C. Maxwell"
+  },
+  {
+    "id": 18,
+    "title": "Stratený syn",
+    "image": "18.jpg",
+    "genre": "rozprávka",
+    "rating": "6.3",
+    "author": "James Boundaries"
+  },
+  {
+    "id": 19,
+    "title": "Chlapec menom Konštantín",
+    "image": "19.jpg",
+    "genre": "rozprávka",
+    "rating": "9.5",
+    "author": "Peter Karpinský"
+  },
+  {
+    "id": 20,
+    "title": "Divoríša",
+    "image": "20.jpg",
+    "genre": "rozprávka",
+    "rating": "7.4",
+    "author": "Pari Thomson"
+  }
+]
