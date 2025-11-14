@@ -4,7 +4,7 @@ Toto je ukážková React.js aplikácia s názvom ČitajTo, ktorá umožňuje po
 
 ## Ukážkový obrázok aplikácie
 
-![Ukážkový obrázok aplikácie](citajtoscreenshot.png)
+![Ukážkový obrázok aplikácie](public/citajtoscreenshot.png)
 
 ### O projekte
 
