@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import BooksList from "./components/BooksList";
 import WatchList from "./components/WatchList";
+import ProjectInfo from "./components/ProjectInfo";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
 function App() {
@@ -39,6 +40,9 @@ function App() {
               <li>
                 <Link to="/watchlist">Zoznam na Čítanie</Link>
               </li>
+              <li>
+                <Link to="/about">O projekte</Link>
+              </li>
             </ul>
           </nav>
           <Routes>
@@ -62,6 +66,7 @@ function App() {
                 />
               }
             />
+            <Route path="/about" element={<ProjectInfo />} />
           </Routes>
         </Router>
       </div>

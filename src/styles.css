@@ -19,13 +19,13 @@ body {
 
 /* Header Styles */
 .header {
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 .search-input {
   padding: 15px;
   margin: 20px 10px;
-  width: 68%;
+  width: 75%;
   font-size: 18px;
   border-radius: 100px;
   border: 3px solid #b39ddb;
@@ -40,13 +40,13 @@ body {
 .filter-slot {
   background-color: #2c2c2c;
   padding: 0 25px;
-  margin: 10px;
+  margin: 5px;
   border-radius: 50px;
 }
 
 .filter-dropdown {
-  padding: 8px;
-  margin: 10px;
+  padding: 5px;
+  margin: 8px;
   border-radius: 5px;
   background-color: #fff;
   color: #333;
@@ -165,12 +165,12 @@ body {
 
 .title {
   text-align: center;
-  margin: 25px 0;
+  margin: 35px 0;
 }
 
 .logo {
   width: 100%;
-  max-width: 920px;
+  max-width: 820px;
   margin: 0 auto;
   display: block;
 }
@@ -182,8 +182,7 @@ body {
 }
 
 nav {
-  margin-top: 50px;
-  margin-bottom: 25px;
+  margin-top: 35px;
 }
 
 ul {
@@ -191,6 +190,27 @@ ul {
   margin: 0;
   display: flex;
   justify-content: center;
+}
+.ul-list {
+  margin-top: 15px;
+  display: block;
+  text-decoration: underline;
+}
+
+.info-text {
+  font-style: italic;
+  margin: 25px auto;
+  font-weight: 300;
+  color: #ccc;
+}
+
+.info-text a {
+  margin-left: 0.5rem;
+}
+
+.underline {
+  text-decoration: underline;
+  color: #7359a6;
 }
 
 ul li {
@@ -266,7 +286,7 @@ input:checked + .slider {
 }
 
 .top-mgb {
-  margin-top: 50px;
+  margin-top: 15px;
 }
 .bottom-mgb {
   margin-bottom: 50px;
