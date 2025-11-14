@@ -1,19 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "../styles.css";
 import BookCard from "./BookCard";
 
-export default function BooksList() {
-  const [books, setBooks] = useState([]);
+export default function BooksList({ books, watchList, toggleWatchList }) {
   const [searchTerm, setSearchTerm] = useState("");
 
   const [genre, setGenre] = useState("Všetky");
   const [rating, setRating] = useState("Všetky");
-
-  useEffect(() => {
-    fetch("books.json")
-      .then((response) => response.json())
-      .then((data) => setBooks(data));
-  }, []);
 
   const handleSearch = (term) => {
     setSearchTerm(term.target.value);
@@ -102,7 +95,12 @@ export default function BooksList() {
 
       <div className="books-list top-mgb">
         {filteredBooks.map((book) => (
-          <BookCard key={book.id} book={book} />
+          <BookCard
+            key={book.id}
+            book={book}
+            toggleWatchList={toggleWatchList}
+            isWatchlisted={watchList.includes(book.id)}
+          />
         ))}
       </div>
     </div>

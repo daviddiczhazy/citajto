@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles.css";
 
-export default function BookCard({ book }) {
+export default function BookCard({ book, isWatchlisted, toggleWatchList }) {
   const handleError = (e) => {
     e.target.src = "images/default.jpg";
   };
@@ -28,6 +28,18 @@ export default function BookCard({ book }) {
             {book.rating}
           </span>
         </div>
+        <label className="switch">
+          <input
+            type="checkbox"
+            checked={isWatchlisted}
+            onChange={() => toggleWatchList(book.id)}
+          />
+          <span className="slider">
+            <span className="slider-label">
+              {isWatchlisted ? " Odstrániť zo zoznamu" : " Pridať do zoznamu"}
+            </span>
+          </span>
+        </label>
       </div>
     </div>
   );
