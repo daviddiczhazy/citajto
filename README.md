@@ -1,8 +1,22 @@
-# Getting Started with Create React App
+# ČitajTo - React.js aplikácia
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Toto je ukážková React.js aplikácia s názvom ČitajTo, ktorá umožňuje používateľom vybrať si knihy, ktoré plánujú čítať.
 
-## Available Scripts
+## Ukážkový obrázok aplikácie
+
+![Ukážkový obrázok aplikácie](citajtoscreenshot.png)
+
+### O projekte
+
+#### Použité technológie:
+
+- React.js
+- React Router
+- Javascript
+- HTML5
+- CSS3
+
+## Inštalácia
 
 In the project directory, you can run:
 
